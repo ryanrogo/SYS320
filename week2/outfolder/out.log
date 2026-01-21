@@ -1,0 +1,30 @@
+#TYPE System.IO.FileInfo
+"PSPath","PSParentPath","PSChildName","PSProvider","PSIsContainer","Mode","VersionInfo","BaseName","Target","LinkType","Name","Length","DirectoryName","Directory","IsReadOnly","Exists","FullName","Extension","CreationTime","CreationTimeUtc","LastAccessTime","LastAccessTimeUtc","LastWriteTime","LastWriteTimeUtc","Attributes"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS320\week2\Lab1Copy.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS320\week2","Lab1Copy.ps1","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\champuser\SYS320\week2\Lab1Copy.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Lab1Copy","System.Collections.Generic.List`1[System.String]",,"Lab1Copy.ps1","638","C:\Users\champuser\SYS320\week2","C:\Users\champuser\SYS320\week2","False","True","C:\Users\champuser\SYS320\week2\Lab1Copy.ps1",".ps1","1/21/2026 1:20:31 PM","1/21/2026 6:20:31 PM","1/21/2026 1:20:31 PM","1/21/2026 6:20:31 PM","1/21/2026 1:20:00 PM","1/21/2026 6:20:00 PM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS320\week2\PowerShell Basic Lab1.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS320\week2","PowerShell Basic Lab1.ps1","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\champuser\SYS320\week2\PowerShell Basic Lab1.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","PowerShell Basic Lab1","System.Collections.Generic.List`1[System.String]",,"PowerShell Basic Lab1.ps1","1385","C:\Users\champuser\SYS320\week2","C:\Users\champuser\SYS320\week2","False","True","C:\Users\champuser\SYS320\week2\PowerShell Basic Lab1.ps1",".ps1","1/21/2026 1:19:41 PM","1/21/2026 6:19:41 PM","1/21/2026 2:25:06 PM","1/21/2026 7:25:06 PM","1/21/2026 2:25:06 PM","1/21/2026 7:25:06 PM","Archive"
