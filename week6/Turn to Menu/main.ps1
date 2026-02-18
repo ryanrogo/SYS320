@@ -28,10 +28,16 @@ while ($true) {
         getFailedLogins 1000 | Select-Object -Last 10
     }
     elseif ($choice -eq 3) {
-    
+
+        # i did not create this as a function in the previous lab (instructions were to make it as part of the option loop)
+        
+        # 1000 as to be all time ish
+        $userLogins = getFailedLogins 1000
+
+        Write-Host ($userLogins | Group-Object "User" | Where-Object { $_.Count -gt 10} | Select-Object Count, Name  | Format-Table | Out-String)
+
     }
     elseif ($choice -eq 4) {
-        
         visitChamplain
 
     }
