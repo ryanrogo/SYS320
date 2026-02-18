@@ -160,7 +160,7 @@ while($operation){
         $days = Read-Host "Enter the amount of days you want to go back in the logs`n"
         $userLogins = getFailedLogins $days
 
-        Write-Host ($userLogins | Group-Object "User" | Select-Object Count, Name | Format-Table | Out-String)
+        Write-Host ($userLogins | Group-Object "User" | Where-Object { $_.Count -gt 10} | Select-Object Count, Name  | Format-Table | Out-String)
     }
     else {
         Write-Host "Invalid option, please enter a number from the menu." 

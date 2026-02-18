@@ -1,6 +1,6 @@
 ﻿. (Join-Path $PSScriptRoot "..\..\week4\parsing\FormatApacheLogs.ps1")
 . (Join-Path $PSScriptRoot "..\Local User Manage Menu\Event-Logs.ps1")
-. (Join-Path $PSScriptRoot "..\Local User Manage Menu\Event-Logs.ps1")
+. (Join-Path $PSScriptRoot "..\..\week2\ProcessManagement1_Chrome.ps1")
 
 
 #getApacheLogs
@@ -32,7 +32,7 @@ while ($true) {
     }
     elseif ($choice -eq 4) {
         
-
+        visitChamplain
 
     }
     elseif ($choice -eq 5) {
