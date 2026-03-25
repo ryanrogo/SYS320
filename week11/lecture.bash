@@ -12,4 +12,16 @@ pages=$(cat $file | grep "GET" | cut -d ' ' -f7 | tr -d '[]"')
 echo "$pages" | sort | uniq -c
 }
 
-pageCount
+#pageCount
+
+# HW assignment
+function countingCurlAccess()
+{
+
+ips=$(cat "$file" | grep "curl" | grep "GET" | cut -d ' ' -f1,12 | tr -d '[]"')
+echo "$ips" | sort | uniq -c 
+}
+
+countingCurlAccess
+
+
